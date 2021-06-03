@@ -1,0 +1,50 @@
+.cssSlider {
+
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+.cssSlider .slides {
+	
+	width: 100%;
+	height: 70vmin;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.cssSlider .slides > li {
+	width: 100%;
+	height: 70vmin;
+	position: absolute;
+	z-index: 1;
+	overflow: hidden;
+}
+.cssSlider .slides > li > img {
+	width: 100%;
+	height: auto;
+}
+
+.cssSlider .thumbnails {
+	display: block;
+	position: relative;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.cssSlider .thumbnails > li {
+	float: left;
+	width: 20%;
+}
+.cssSlider .thumbnails > li > a {
+	display: block;
+}
+.cssSlider .thumbnails > li > a > img {
+	width: 100%;
+	height: auto;
+}
+
+.cssSlider .slides li:target {
+	z-index: 3;
+    background-color: black;
+	
+}

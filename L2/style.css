@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+p,
+h1,
+.block {
+    color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+h1 {
+    background-color: burlywood;
+    margin: 10px 20px 35px;
+    padding: 10px;
+    padding-left: 30px;
+}
+
+#myID {
+    color: tomato;
+}
